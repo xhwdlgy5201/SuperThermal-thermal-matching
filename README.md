@@ -1,5 +1,6 @@
 ## SuperThermal-thermal-matching
-An unofficial PyTorch implementation of SuperThermal: Matching Thermal as Visible Through Thermal Feature Exploration
+An unofficial PyTorch implementation of **SuperThermal**: Matching Thermal as Visible Through Thermal Feature Exploration
+
 This implementation is trained based on this paper and can get similar matching results, you can cite this work here:
 
 ```
@@ -17,8 +18,12 @@ This implementation is trained based on this paper and can get similar matching 
 
 ## Usage for application, batch output matching results in a folder
 
-*On kaist:
+**On Kaist:**
+```
 python batch_draw_matching_points.py --resume KAIST.pth.tar --folder test_input
+```
 
-*On CSS:
+**On CSS:**
+```
 python batch_draw_matching_points.py --resume CSS.pth.tar --folder test_input
+```
