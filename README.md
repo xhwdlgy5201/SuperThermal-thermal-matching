@@ -16,7 +16,9 @@ This implementation is trained based on this paper and can get similar matching 
 ```
 
 ## Usage for application, batch output matching results in a folder
-On kaist:
+
+*On kaist:
 python batch_draw_matching_points.py --resume KAIST.pth.tar --folder test_input
-On CSS:
+
+*On CSS:
 python batch_draw_matching_points.py --resume CSS.pth.tar --folder test_input
